@@ -1,38 +1,63 @@
-# Assessment-for-Gen-AI-Prompt-Engineering-Role
-Assessment for Gen AI/Prompt Engineering Role
-Problem Statement 1: Natural Language Processing (NLP)
-Problem: Implement a function to preprocess and tokenize text data. Requirements:
-Implement in Python using libraries like NLTK or spaCy.
-Handle edge cases such as punctuation, stop words, and different cases. Evaluation Criteria:
-Correctness of the preprocessing steps.
-Efficiency and readability of the code.
-Clean and structured code with appropriate comments.
-Problem Statement 2: Text Generation
-Problem: Create a basic text generation model using a pre-trained transformer (e.g., GPT-3). Requirements:
-Use the Hugging Face Transformers library.
-Generate coherent text based on a given prompt. Evaluation Criteria:
-Ability to load and use pre-trained models.
-Quality and coherence of the generated text.
-Understanding and application of the transformer model.
-Problem Statement 3: Prompt Engineering
-Problem: Design and evaluate prompts to improve the performance of a given AI model on a specific task (e.g., summarization, question answering). Requirements:
-Experiment with different prompt designs.
-Evaluate the effectiveness of each prompt using appropriate metrics. Evaluation Criteria:
-Creativity and effectiveness of prompt designs.
-Use of proper evaluation metrics.
-Clear explanation and documentation of the process and results.
-Problem Statement 4: Data Analysis
-Problem: Analyze a dataset and generate insights using a combination of descriptive statistics and visualizations. Requirements:
-Use Python libraries like Pandas, NumPy, and Matplotlib/Seaborn.
-Provide a Jupyter notebook with the analysis and visualizations. Evaluation Criteria:
-Accuracy and depth of the data analysis.
-Quality and clarity of the visualizations.
-Clean and well-documented code.
-Problem Statement 5: Live Coding Session - API Integration
-Problem: Develop a Python script to integrate with an external API and fetch data based on user input. Requirements:
-Use the Requests library to make API calls.
-Handle API responses and errors gracefully.
-Parse and display the fetched data in a user-friendly format. Evaluation Criteria:
-Correct implementation of API integration.
-Handling of different types of API responses and errors.
-Clean and well-structured code with appropriate comments.
+Gen AI Prompt Engineering Assessment
+This repository contains solutions to the Gen AI/Prompt Engineering assessment for various problem statements involving Natural Language Processing (NLP), Text Generation, Prompt Engineering, Data Analysis, and API Integration using Python.
+
+Problem Statements
+1. Natural Language Processing (NLP)
+The task is to preprocess and tokenize text data using Python libraries such as NLTK or spaCy. The implementation should handle edge cases like punctuation, stop words, and different cases.
+
+Solution: preprocess_text.py
+Libraries used: NLTK, string
+2. Text Generation
+The goal is to implement a text generation model using a pre-trained transformer model (e.g., GPT-3) via the Hugging Face Transformers library. The model generates coherent text based on a given prompt.
+
+Solution: text_generation.py
+Libraries used: Transformers, Hugging Face
+3. Prompt Engineering
+This problem focuses on designing and evaluating prompts to improve an AI model’s performance on a specific task like summarization or question answering. Different prompt designs are experimented with, and their effectiveness is evaluated.
+
+Solution: prompt_engineering.py
+Libraries used: Hugging Face Transformers
+4. Data Analysis
+The task requires analyzing a dataset and generating insights using descriptive statistics and visualizations with Python libraries such as Pandas, NumPy, and Matplotlib/Seaborn.
+
+Solution: data_analysis.ipynb
+Libraries used: Pandas, NumPy, Matplotlib, Seaborn
+5. API Integration
+A Python script is developed to integrate with an external API and fetch data based on user input. It handles different types of API responses and errors gracefully.
+
+Solution: api_integration.py
+Libraries used: Requests
+Setup Instructions
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your_username/gen-ai-prompt-engineering.git
+Install required dependencies: All dependencies are listed in requirements.txt. Install them with:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the scripts: Each problem statement is located in its respective script or notebook. Example for NLP preprocessing:
+
+bash
+Copy code
+python preprocess_text.py
+Folder Structure
+bash
+Copy code
+├── data_analysis.ipynb      # Jupyter notebook for data analysis
+├── preprocess_text.py       # NLP preprocessing script
+├── text_generation.py       # Text generation script using transformer models
+├── prompt_engineering.py    # Prompt engineering experiment
+├── api_integration.py       # API integration script
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
+Dependencies
+Python 3.x
+NLTK
+Hugging Face Transformers
+Pandas, NumPy, Matplotlib, Seaborn
+Requests
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
