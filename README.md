@@ -57,11 +57,13 @@ Copy code
 ├── api_integration.py       # API integration script
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
+
 Dependencies
 Python 3.x
 NLTK
 Hugging Face Transformers
 Pandas, NumPy, Matplotlib, Seaborn
 Requests
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
