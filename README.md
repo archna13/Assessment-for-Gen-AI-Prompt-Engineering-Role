@@ -7,21 +7,25 @@ The task is to preprocess and tokenize text data using Python libraries such as 
 
 Solution: preprocess_text.py
 Libraries used: NLTK, string
+
 2. Text Generation
 The goal is to implement a text generation model using a pre-trained transformer model (e.g., GPT-3) via the Hugging Face Transformers library. The model generates coherent text based on a given prompt.
 
 Solution: text_generation.py
 Libraries used: Transformers, Hugging Face
+
 3. Prompt Engineering
 This problem focuses on designing and evaluating prompts to improve an AI model’s performance on a specific task like summarization or question answering. Different prompt designs are experimented with, and their effectiveness is evaluated.
 
 Solution: prompt_engineering.py
 Libraries used: Hugging Face Transformers
+
 4. Data Analysis
 The task requires analyzing a dataset and generating insights using descriptive statistics and visualizations with Python libraries such as Pandas, NumPy, and Matplotlib/Seaborn.
 
 Solution: data_analysis.ipynb
 Libraries used: Pandas, NumPy, Matplotlib, Seaborn
+
 5. API Integration
 A Python script is developed to integrate with an external API and fetch data based on user input. It handles different types of API responses and errors gracefully.
 
